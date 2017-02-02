@@ -1,6 +1,5 @@
 if GetObjectName(GetMyHero()) ~= "Khazix" then return end
 
-require('Inspired')
 require('OpenPredict')
 local khazix = Menu("IS khazix", "IS khazix")
 khazix:SubMenu("Combo", "Combo")
@@ -30,7 +29,7 @@ local myHero = GetMyHero()
 local PD = {15,20,25,35,45,55,65,75,85,95,110,125,140,150,160,170,180,190}
 local Emini = {delay = 0.25, speed = 400, width = 325, range = 700}
 local Ebig = {delay = 0.25, speed = 400, width = 325, range = 900}
-local W = {delay = 0.25, speed = 1650, width = 70, range = 1025}
+local W = {delay = 0.25, speed = 1700, width = 70, range = 1025}
 local CCbuffnames = {
 "Stun",
 "CurseoftheSadMummy",

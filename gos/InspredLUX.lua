@@ -1,4 +1,3 @@
-LoadIOW()
 pcall(require, 'IPrediction')
 require('OpenPredict')
 class "Lux"

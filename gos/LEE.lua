@@ -9,7 +9,7 @@ lastWardTime = GetGameTimer()
   Callback.Add("Tick", function() Loop() end)
   Callback.Add("CreateObj", function(obj) CreateObj(obj) end)
   Callback.Add("Draw", function(myHero) OnDraw(myHero) end)
-  LoadIOW()
+ 
 
 if GetObjectName(GetMyHero()) ~= "LeeSin" then return end
 

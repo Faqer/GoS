@@ -1,4 +1,3 @@
-require("Inspired")
 require("OpenPredict")  -- cloud
 require("DamageLib")
 wards = {}

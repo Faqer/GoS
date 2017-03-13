@@ -1,4 +1,4 @@
-local menu = MenuElement({id = "GSOMenu", name = "GamsteronOrb", type = MENU})
+local menu = MenuElement({id = "GSOMenu", name = "SHİTORB", type = MENU}) --Gamestron
         menu:MenuElement({id = "combo", name = "Combo Key", key = string.byte(" ")})
         menu:MenuElement({id = "wind", name = "ExtraWindupTime", value = 120, min = 0, max = 300, step = 10})
 

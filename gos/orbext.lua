@@ -46,7 +46,7 @@ end
 local lastmove = 0
 local wind = menu.wind:Value()*0.001
 local function Move()
-        if os.clock() < lastaa + myHero.attackData.windUpTime + 0.05 or os.clock() < lastmove + 0.2 then
+        if os.clock() < lastaa + myHero.attackData.windUpTime + 0.005 or os.clock() < lastmove + 0.2 then
                 return
         end
         Control.mouse_event(0x0008)
@@ -55,7 +55,7 @@ local function Move()
 end
 
 Callback.Add("Tick", function()
-        wind = menu.wind:Value()*0.001
+        wind = menu.wind:Value()*0.0001
         if menu.combo:Value() then
                 local t = GetAATarget(myHero.range + myHero.boundingRadius)
                 Move()

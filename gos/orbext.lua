@@ -55,7 +55,7 @@ local function Move()
 end
 
 Callback.Add("Tick", function()
-        wind = menu.wind:Value()*0.0001
+        wind = menu.wind:Value()*0.0005
         if menu.combo:Value() then
                 local t = GetAATarget(myHero.range + myHero.boundingRadius)
                 Move()
